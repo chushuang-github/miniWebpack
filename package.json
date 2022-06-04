@@ -1,0 +1,21 @@
+{
+  "name": "miniwebpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "node ./script/build.js",
+    "debug": "node --inspect-brk ./script/build.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.18.2",
+    "@babel/parser": "^7.18.4",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/traverse": "^7.18.2"
+  }
+}
